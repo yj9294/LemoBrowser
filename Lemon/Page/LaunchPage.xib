@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaunchPage" customModule="Lemon" customModuleProvider="target">
+            <connections>
+                <outlet property="progressConstraint" destination="iSg-EU-pnV" id="MoG-eH-WHu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="6Lc-yK-dcu">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lemon Browser" translatesAutoresizingMaskIntoConstraints="NO" id="NuZ-2D-gij">
+                    <rect key="frame" x="69" y="109" width="255" height="27"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfz-7x-Qbc">
+                    <rect key="frame" x="70" y="780" width="253" height="8"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMS-p1-365">
+                            <rect key="frame" x="1" y="1" width="0.0" height="6"/>
+                            <color key="backgroundColor" red="1" green="0.97254901960784312" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" id="iSg-EU-pnV"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadisu">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.054901960784313725" green="0.054901960784313725" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="GMS-p1-365" firstAttribute="top" secondItem="mfz-7x-Qbc" secondAttribute="top" constant="1" id="AxV-DP-J0K"/>
+                        <constraint firstItem="GMS-p1-365" firstAttribute="leading" secondItem="mfz-7x-Qbc" secondAttribute="leading" constant="1" id="Cz8-zX-th3"/>
+                        <constraint firstAttribute="height" constant="8" id="Ro7-oh-gn8"/>
+                        <constraint firstAttribute="bottom" secondItem="GMS-p1-365" secondAttribute="bottom" constant="1" id="XGX-uc-5t1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadisu">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mfz-7x-Qbc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="70" id="1hm-GZ-pBk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mfz-7x-Qbc" secondAttribute="trailing" constant="70" id="MfJ-Y7-GN9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mfz-7x-Qbc" secondAttribute="bottom" constant="30" id="XpO-8t-mPy"/>
+                <constraint firstAttribute="bottom" secondItem="6Lc-yK-dcu" secondAttribute="bottom" id="eb9-yg-KeN"/>
+                <constraint firstAttribute="trailing" secondItem="6Lc-yK-dcu" secondAttribute="trailing" id="hUs-BI-XTi"/>
+                <constraint firstItem="NuZ-2D-gij" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iAk-nr-c6K"/>
+                <constraint firstItem="6Lc-yK-dcu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="moI-Pm-aDN"/>
+                <constraint firstItem="NuZ-2D-gij" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="tLP-e1-vxr"/>
+                <constraint firstItem="6Lc-yK-dcu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ukV-rS-FlN"/>
+            </constraints>
+            <point key="canvasLocation" x="48" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lemon Browser" width="255" height="27"/>
+        <image name="bg" width="360" height="760"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

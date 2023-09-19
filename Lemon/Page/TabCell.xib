@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TabCell" id="gTV-IL-0wX" customClass="TabCell" customModule="Lemon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="117" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="117" height="133"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9k-n2-8Sh">
+                        <rect key="frame" x="97" y="6" width="14" height="22"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="close"/>
+                        <connections>
+                            <action selector="clseAction" destination="gTV-IL-0wX" eventType="touchUpInside" id="zjw-c8-OgX"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGb-Mr-TvK">
+                        <rect key="frame" x="20" y="88.333333333333329" width="77" height="15.333333333333329"/>
+                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZGb-Mr-TvK" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="N38-SL-p3g"/>
+                <constraint firstAttribute="trailing" secondItem="Q9k-n2-8Sh" secondAttribute="trailing" constant="6" id="Y8V-Qb-AKx"/>
+                <constraint firstItem="ZGb-Mr-TvK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="f39-Qe-FLS"/>
+                <constraint firstAttribute="trailing" secondItem="ZGb-Mr-TvK" secondAttribute="trailing" constant="20" id="tMc-yS-7aq"/>
+                <constraint firstItem="ZGb-Mr-TvK" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="tnH-ig-kXG"/>
+                <constraint firstItem="Q9k-n2-8Sh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="yNt-jA-kS4"/>
+            </constraints>
+            <size key="customSize" width="117" height="133"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadisu">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="closeButton" destination="Q9k-n2-8Sh" id="Nbc-KH-WVW"/>
+                <outlet property="tilte" destination="ZGb-Mr-TvK" id="pxj-Kf-Xl4"/>
+            </connections>
+            <point key="canvasLocation" x="-20.610687022900763" y="49.647887323943664"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close" width="14" height="14"/>
+    </resources>
+</document>

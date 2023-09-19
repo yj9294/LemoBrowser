@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7087FC12AAEF30400E566CA /* PrivacyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7087FBF2AAEF30400E566CA /* PrivacyPage.swift */; };
+		C7087FC22AAEF30400E566CA /* PrivacyPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7087FC02AAEF30400E566CA /* PrivacyPage.xib */; };
+		C7087FC52AAEFB1B00E566CA /* TermsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7087FC32AAEFB1B00E566CA /* TermsPage.swift */; };
+		C7087FC62AAEFB1B00E566CA /* TermsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7087FC42AAEFB1B00E566CA /* TermsPage.xib */; };
+		C7087FC92AAF00F900E566CA /* CleanAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7087FC72AAF00F900E566CA /* CleanAlertView.swift */; };
+		C7087FCA2AAF00F900E566CA /* CleanAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7087FC82AAF00F900E566CA /* CleanAlertView.xib */; };
+		C7087FCD2AAF161400E566CA /* CleanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7087FCB2AAF161400E566CA /* CleanPage.swift */; };
+		C7087FCE2AAF161400E566CA /* CleanPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7087FCC2AAF161400E566CA /* CleanPage.xib */; };
+		C7087FD12AAF26A900E566CA /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = C7087FD02AAF26A900E566CA /* FacebookAEM */; };
+		C7087FD32AAF26A900E566CA /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = C7087FD22AAF26A900E566CA /* FacebookBasics */; };
+		C7087FD52AAF26A900E566CA /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = C7087FD42AAF26A900E566CA /* FacebookCore */; };
+		C7087FD82AB0283200E566CA /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C7087FD72AB0283200E566CA /* IQKeyboardManagerSwift */; };
+		C70951702AB16E3D00002EF4 /* GADUtil in Frameworks */ = {isa = PBXBuildFile; productRef = C709516F2AB16E3D00002EF4 /* GADUtil */; };
+		C70951722AB18B0D00002EF4 /* GADNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70951712AB18B0D00002EF4 /* GADNativeView.swift */; };
+		C77507882AA9B83D0083D688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507872AA9B83D0083D688 /* AppDelegate.swift */; };
+		C775078A2AA9B83D0083D688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507892AA9B83D0083D688 /* SceneDelegate.swift */; };
+		C775078F2AA9B83D0083D688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C775078D2AA9B83D0083D688 /* Main.storyboard */; };
+		C77507912AA9B83F0083D688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77507902AA9B83F0083D688 /* Assets.xcassets */; };
+		C77507942AA9B83F0083D688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77507922AA9B83F0083D688 /* LaunchScreen.storyboard */; };
+		C77507A02AA9BA0E0083D688 /* LaunchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775079E2AA9BA0E0083D688 /* LaunchPage.swift */; };
+		C77507A12AA9BA0E0083D688 /* LaunchPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C775079F2AA9BA0E0083D688 /* LaunchPage.xib */; };
+		C77507A72AA9C0E30083D688 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507A52AA9C0E30083D688 /* HomePage.swift */; };
+		C77507A82AA9C0E30083D688 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507A62AA9C0E30083D688 /* HomePage.xib */; };
+		C77507AB2AA9C3E00083D688 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507AA2AA9C3E00083D688 /* UIViewExt.swift */; };
+		C77507AE2AAAF5170083D688 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507AC2AAAF5170083D688 /* HomeCell.swift */; };
+		C77507AF2AAAF5170083D688 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507AD2AAAF5170083D688 /* HomeCell.xib */; };
+		C77507B12AAB05B40083D688 /* BrowserUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507B02AAB05B40083D688 /* BrowserUtil.swift */; };
+		C77507B42AAB0DFA0083D688 /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507B22AAB0DFA0083D688 /* TabPage.swift */; };
+		C77507B52AAB0DFA0083D688 /* TabPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507B32AAB0DFA0083D688 /* TabPage.xib */; };
+		C77507B82AAB0E6B0083D688 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507B62AAB0E6B0083D688 /* TabCell.swift */; };
+		C77507B92AAB0E6B0083D688 /* TabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507B72AAB0E6B0083D688 /* TabCell.xib */; };
+		C77507BB2AAB1CD90083D688 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507BA2AAB1CD90083D688 /* SettingView.swift */; };
+		C77507BD2AAB1CEA0083D688 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507BC2AAB1CEA0083D688 /* SettingView.xib */; };
+		C7B4C36C2AB1619500B3B94C /* GADConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C7B4C36B2AB1619500B3B94C /* GADConfig.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7087FBF2AAEF30400E566CA /* PrivacyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPage.swift; sourceTree = "<group>"; };
+		C7087FC02AAEF30400E566CA /* PrivacyPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivacyPage.xib; sourceTree = "<group>"; };
+		C7087FC32AAEFB1B00E566CA /* TermsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsPage.swift; sourceTree = "<group>"; };
+		C7087FC42AAEFB1B00E566CA /* TermsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsPage.xib; sourceTree = "<group>"; };
+		C7087FC72AAF00F900E566CA /* CleanAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanAlertView.swift; sourceTree = "<group>"; };
+		C7087FC82AAF00F900E566CA /* CleanAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CleanAlertView.xib; sourceTree = "<group>"; };
+		C7087FCB2AAF161400E566CA /* CleanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanPage.swift; sourceTree = "<group>"; };
+		C7087FCC2AAF161400E566CA /* CleanPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CleanPage.xib; sourceTree = "<group>"; };
+		C70951712AB18B0D00002EF4 /* GADNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADNativeView.swift; sourceTree = "<group>"; };
+		C77507842AA9B83D0083D688 /* Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77507872AA9B83D0083D688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77507892AA9B83D0083D688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C775078E2AA9B83D0083D688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77507902AA9B83F0083D688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77507932AA9B83F0083D688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C77507952AA9B83F0083D688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C775079E2AA9BA0E0083D688 /* LaunchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPage.swift; sourceTree = "<group>"; };
+		C775079F2AA9BA0E0083D688 /* LaunchPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchPage.xib; sourceTree = "<group>"; };
+		C77507A52AA9C0E30083D688 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		C77507A62AA9C0E30083D688 /* HomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		C77507AA2AA9C3E00083D688 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		C77507AC2AAAF5170083D688 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		C77507AD2AAAF5170083D688 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		C77507B02AAB05B40083D688 /* BrowserUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserUtil.swift; sourceTree = "<group>"; };
+		C77507B22AAB0DFA0083D688 /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
+		C77507B32AAB0DFA0083D688 /* TabPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabPage.xib; sourceTree = "<group>"; };
+		C77507B62AAB0E6B0083D688 /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		C77507B72AAB0E6B0083D688 /* TabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCell.xib; sourceTree = "<group>"; };
+		C77507BA2AAB1CD90083D688 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C77507BC2AAB1CEA0083D688 /* SettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		C7B4C36B2AB1619500B3B94C /* GADConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GADConfig.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77507812AA9B83D0083D688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7087FD12AAF26A900E566CA /* FacebookAEM in Frameworks */,
+				C70951702AB16E3D00002EF4 /* GADUtil in Frameworks */,
+				C7087FD82AB0283200E566CA /* IQKeyboardManagerSwift in Frameworks */,
+				C7087FD52AAF26A900E566CA /* FacebookCore in Frameworks */,
+				C7087FD32AAF26A900E566CA /* FacebookBasics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C775077B2AA9B83D0083D688 = {
+			isa = PBXGroup;
+			children = (
+				C77507862AA9B83D0083D688 /* Lemon */,
+				C77507852AA9B83D0083D688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77507852AA9B83D0083D688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77507842AA9B83D0083D688 /* Lemon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77507862AA9B83D0083D688 /* Lemon */ = {
+			isa = PBXGroup;
+			children = (
+				C77507952AA9B83F0083D688 /* Info.plist */,
+				C77507A92AA9C3CD0083D688 /* Data */,
+				C775079B2AA9B97C0083D688 /* AppContainer */,
+				C775079D2AA9B9D20083D688 /* Page */,
+				C77507A22AA9BA160083D688 /* Resource */,
+			);
+			path = Lemon;
+			sourceTree = "<group>";
+		};
+		C775079B2AA9B97C0083D688 /* AppContainer */ = {
+			isa = PBXGroup;
+			children = (
+				C77507872AA9B83D0083D688 /* AppDelegate.swift */,
+				C77507892AA9B83D0083D688 /* SceneDelegate.swift */,
+			);
+			path = AppContainer;
+			sourceTree = "<group>";
+		};
+		C775079D2AA9B9D20083D688 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				C775079E2AA9BA0E0083D688 /* LaunchPage.swift */,
+				C775079F2AA9BA0E0083D688 /* LaunchPage.xib */,
+				C77507A52AA9C0E30083D688 /* HomePage.swift */,
+				C77507A62AA9C0E30083D688 /* HomePage.xib */,
+				C77507AC2AAAF5170083D688 /* HomeCell.swift */,
+				C77507AD2AAAF5170083D688 /* HomeCell.xib */,
+				C77507B22AAB0DFA0083D688 /* TabPage.swift */,
+				C77507B32AAB0DFA0083D688 /* TabPage.xib */,
+				C77507B62AAB0E6B0083D688 /* TabCell.swift */,
+				C77507B72AAB0E6B0083D688 /* TabCell.xib */,
+				C77507BA2AAB1CD90083D688 /* SettingView.swift */,
+				C77507BC2AAB1CEA0083D688 /* SettingView.xib */,
+				C7087FBF2AAEF30400E566CA /* PrivacyPage.swift */,
+				C7087FC02AAEF30400E566CA /* PrivacyPage.xib */,
+				C7087FC32AAEFB1B00E566CA /* TermsPage.swift */,
+				C7087FC42AAEFB1B00E566CA /* TermsPage.xib */,
+				C7087FC72AAF00F900E566CA /* CleanAlertView.swift */,
+				C7087FC82AAF00F900E566CA /* CleanAlertView.xib */,
+				C7087FCB2AAF161400E566CA /* CleanPage.swift */,
+				C7087FCC2AAF161400E566CA /* CleanPage.xib */,
+				C70951712AB18B0D00002EF4 /* GADNativeView.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		C77507A22AA9BA160083D688 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4C36B2AB1619500B3B94C /* GADConfig.json */,
+				C77507902AA9B83F0083D688 /* Assets.xcassets */,
+				C77507922AA9B83F0083D688 /* LaunchScreen.storyboard */,
+				C775078D2AA9B83D0083D688 /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C77507A92AA9C3CD0083D688 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C77507AA2AA9C3E00083D688 /* UIViewExt.swift */,
+				C77507B02AAB05B40083D688 /* BrowserUtil.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77507832AA9B83D0083D688 /* Lemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77507982AA9B83F0083D688 /* Build configuration list for PBXNativeTarget "Lemon" */;
+			buildPhases = (
+				C77507802AA9B83D0083D688 /* Sources */,
+				C77507812AA9B83D0083D688 /* Frameworks */,
+				C77507822AA9B83D0083D688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lemon;
+			packageProductDependencies = (
+				C7087FD02AAF26A900E566CA /* FacebookAEM */,
+				C7087FD22AAF26A900E566CA /* FacebookBasics */,
+				C7087FD42AAF26A900E566CA /* FacebookCore */,
+				C7087FD72AB0283200E566CA /* IQKeyboardManagerSwift */,
+				C709516F2AB16E3D00002EF4 /* GADUtil */,
+			);
+			productName = Lemon;
+			productReference = C77507842AA9B83D0083D688 /* Lemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C775077C2AA9B83D0083D688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C77507832AA9B83D0083D688 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C775077F2AA9B83D0083D688 /* Build configuration list for PBXProject "Lemon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C775077B2AA9B83D0083D688;
+			packageReferences = (
+				C7087FCF2AAF26A900E566CA /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C7087FD62AB0283100E566CA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				C709516E2AB16E3D00002EF4 /* XCRemoteSwiftPackageReference "GADUtil" */,
+			);
+			productRefGroup = C77507852AA9B83D0083D688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77507832AA9B83D0083D688 /* Lemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77507822AA9B83D0083D688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77507A82AA9C0E30083D688 /* HomePage.xib in Resources */,
+				C7087FCE2AAF161400E566CA /* CleanPage.xib in Resources */,
+				C7087FCA2AAF00F900E566CA /* CleanAlertView.xib in Resources */,
+				C77507B52AAB0DFA0083D688 /* TabPage.xib in Resources */,
+				C77507942AA9B83F0083D688 /* LaunchScreen.storyboard in Resources */,
+				C77507BD2AAB1CEA0083D688 /* SettingView.xib in Resources */,
+				C7087FC62AAEFB1B00E566CA /* TermsPage.xib in Resources */,
+				C77507B92AAB0E6B0083D688 /* TabCell.xib in Resources */,
+				C77507912AA9B83F0083D688 /* Assets.xcassets in Resources */,
+				C775078F2AA9B83D0083D688 /* Main.storyboard in Resources */,
+				C7B4C36C2AB1619500B3B94C /* GADConfig.json in Resources */,
+				C77507AF2AAAF5170083D688 /* HomeCell.xib in Resources */,
+				C77507A12AA9BA0E0083D688 /* LaunchPage.xib in Resources */,
+				C7087FC22AAEF30400E566CA /* PrivacyPage.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77507802AA9B83D0083D688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77507A02AA9BA0E0083D688 /* LaunchPage.swift in Sources */,
+				C77507BB2AAB1CD90083D688 /* SettingView.swift in Sources */,
+				C7087FC52AAEFB1B00E566CA /* TermsPage.swift in Sources */,
+				C7087FC12AAEF30400E566CA /* PrivacyPage.swift in Sources */,
+				C77507882AA9B83D0083D688 /* AppDelegate.swift in Sources */,
+				C77507B82AAB0E6B0083D688 /* TabCell.swift in Sources */,
+				C70951722AB18B0D00002EF4 /* GADNativeView.swift in Sources */,
+				C77507AB2AA9C3E00083D688 /* UIViewExt.swift in Sources */,
+				C77507B12AAB05B40083D688 /* BrowserUtil.swift in Sources */,
+				C7087FCD2AAF161400E566CA /* CleanPage.swift in Sources */,
+				C77507B42AAB0DFA0083D688 /* TabPage.swift in Sources */,
+				C7087FC92AAF00F900E566CA /* CleanAlertView.swift in Sources */,
+				C775078A2AA9B83D0083D688 /* SceneDelegate.swift in Sources */,
+				C77507AE2AAAF5170083D688 /* HomeCell.swift in Sources */,
+				C77507A72AA9C0E30083D688 /* HomePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C775078D2AA9B83D0083D688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C775078E2AA9B83D0083D688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C77507922AA9B83F0083D688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77507932AA9B83F0083D688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77507962AA9B83F0083D688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77507972AA9B83F0083D688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77507992AA9B83F0083D688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20230919;
+				DEVELOPMENT_TEAM = 59CN4J44AC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lemon/Resource",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lemon/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testbird.Lemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C775079A2AA9B83F0083D688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20230919;
+				DEVELOPMENT_TEAM = 59CN4J44AC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lemon/Resource",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lemon/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testbird.Lemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C775077F2AA9B83D0083D688 /* Build configuration list for PBXProject "Lemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77507962AA9B83F0083D688 /* Debug */,
+				C77507972AA9B83F0083D688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77507982AA9B83F0083D688 /* Build configuration list for PBXNativeTarget "Lemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77507992AA9B83F0083D688 /* Debug */,
+				C775079A2AA9B83F0083D688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7087FCF2AAF26A900E566CA /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C7087FD62AB0283100E566CA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C709516E2AB16E3D00002EF4 /* XCRemoteSwiftPackageReference "GADUtil" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yj9294/GADUtil";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7087FD02AAF26A900E566CA /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7087FCF2AAF26A900E566CA /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		C7087FD22AAF26A900E566CA /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7087FCF2AAF26A900E566CA /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		C7087FD42AAF26A900E566CA /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7087FCF2AAF26A900E566CA /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		C7087FD72AB0283200E566CA /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7087FD62AB0283100E566CA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		C709516F2AB16E3D00002EF4 /* GADUtil */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C709516E2AB16E3D00002EF4 /* XCRemoteSwiftPackageReference "GADUtil" */;
+			productName = GADUtil;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C775077C2AA9B83D0083D688 /* Project object */;
+}

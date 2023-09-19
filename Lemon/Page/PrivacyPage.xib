@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyPage" customModule="Lemon" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIJ-pA-DFk">
+                    <rect key="frame" x="20" y="79" width="353" height="719"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <mutableString key="text">Privacy Policy
+Please read this privacy policy in detail and be aware of it.
+Information Collection and Use
+The Lemon Browser collects the following information about you:
+Personal identification information: When you use our services, we may request that you provide us with certain identification information that can be used to contact or identify you personally;
+Usage data: When you visit our website, it is related to your data. This includes but is not limited to browser type, browser version, your IP address, server pages you visited, time, date, and the amount of time spent on these pages;
+Usage and diagnostic data: The data collected when you use our application. This may include the type of mobile device you are using, the unique identifier of the mobile device, the IP address of the mobile device, and so on.
+How we share information
+We may disclose your information for the following purposes, but we will definitely comply with our legal obligations to protect everyone's rights and property.
+We may engage third party companies and individuals for the following reasons:
+Promote our services;
+Provide services on our behalf;
+Perform services related to the service;
+Help us analyze how to make our service better.
+Children's Privacy
+If you are a parent or guardian and you know that your child has provided us with personal data, please contact us. If we discover that we have collected a child's personal data without parental consent, we will take steps to remove that information from our servers.
+Update 
+We may update our privacy policy from time to time, and we suggest that you regularly review this privacy policy to understand any changes made.
+Contact us
+If you have any questions about this policy, you can contact our support team via the email below.
+LeMon0918nn@gmail.com</mutableString>
+                    <color key="textColor" red="0.38431372549019605" green="0.38431372549019605" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SIJ-pA-DFk" secondAttribute="trailing" constant="20" id="THR-WI-J53"/>
+                <constraint firstItem="SIJ-pA-DFk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="aME-4Z-lU6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="SIJ-pA-DFk" secondAttribute="bottom" constant="20" id="dPv-Cb-hbe"/>
+                <constraint firstItem="SIJ-pA-DFk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="sCK-Z4-PaT"/>
+            </constraints>
+            <point key="canvasLocation" x="30" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
