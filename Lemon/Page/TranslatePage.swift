@@ -65,7 +65,7 @@ extension TranslatePage {
         self.targetButton.setTitle(ProfileUtil.share.textTargetLanguage.language, for: .normal)
     }
     
-    @IBAction func translateActino(_ sender: Any) {
+    @IBAction func translateActino() {
         if !NetworkUtil.shared.isConnected {
             /// 没网络
             alert("No network.")
@@ -83,7 +83,16 @@ extension TranslatePage {
                 return
             }
             if !isSuccess {
-                self.alert(result)
+                if result == "No network." {
+                    alert(result)
+                    return
+                }
+                let vc = TranslateFailPage()
+                vc.modalPresentationStyle = .fullScreen
+                self.present(vc, animated: true)
+                vc.confirm = {
+                    self.translateActino()
+                }
                 return
             }
             let vc = TranslateResult(source: self.textView.text, target: result)

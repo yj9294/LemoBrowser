@@ -117,7 +117,7 @@ extension TranslateUtil {
     private func translate(text: String, sourceCode: String, targetCode: String, completion: @escaping (Bool,String)->Void) {
         debugPrint("[TR] 开始翻译")
         var progress = 0.0
-        var duration = 17.0
+        var duration = 13.0
         var isSuccess = false
         var result = "Sorry, try to translate it again."
         // 最长15.4秒后返回结果

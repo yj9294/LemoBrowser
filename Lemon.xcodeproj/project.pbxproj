@@ -38,6 +38,8 @@
 		C77507B92AAB0E6B0083D688 /* TabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507B72AAB0E6B0083D688 /* TabCell.xib */; };
 		C77507BB2AAB1CD90083D688 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77507BA2AAB1CD90083D688 /* SettingView.swift */; };
 		C77507BD2AAB1CEA0083D688 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77507BC2AAB1CEA0083D688 /* SettingView.xib */; };
+		C7882FB62AC2BEBB0012AE0F /* TranslateFailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7882FB42AC2BEBB0012AE0F /* TranslateFailPage.swift */; };
+		C7882FB72AC2BEBB0012AE0F /* TranslateFailPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7882FB52AC2BEBB0012AE0F /* TranslateFailPage.xib */; };
 		C7B4C36C2AB1619500B3B94C /* GADConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C7B4C36B2AB1619500B3B94C /* GADConfig.json */; };
 		C7DB98772AC192B500C29DA5 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = C7DB98762AC192B500C29DA5 /* FacebookAEM */; };
 		C7DB98792AC192B500C29DA5 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = C7DB98782AC192B500C29DA5 /* FacebookBasics */; };
@@ -91,6 +93,8 @@
 		C77507B72AAB0E6B0083D688 /* TabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCell.xib; sourceTree = "<group>"; };
 		C77507BA2AAB1CD90083D688 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		C77507BC2AAB1CEA0083D688 /* SettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		C7882FB42AC2BEBB0012AE0F /* TranslateFailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateFailPage.swift; sourceTree = "<group>"; };
+		C7882FB52AC2BEBB0012AE0F /* TranslateFailPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TranslateFailPage.xib; sourceTree = "<group>"; };
 		C7B4C36B2AB1619500B3B94C /* GADConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GADConfig.json; sourceTree = "<group>"; };
 		C7E968692AC2742B00DA9F5A /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
 		C7E9686A2AC2742B00DA9F5A /* LanguageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageCell.xib; sourceTree = "<group>"; };
@@ -193,6 +197,8 @@
 				C7EC29C42ABEAF500011A160 /* TranslatePage.xib */,
 				C75E9F9B2AC1667100ACFD43 /* TranslateResult.swift */,
 				C75E9F9C2AC1667100ACFD43 /* TranslateResult.xib */,
+				C7882FB42AC2BEBB0012AE0F /* TranslateFailPage.swift */,
+				C7882FB52AC2BEBB0012AE0F /* TranslateFailPage.xib */,
 				C7EC29DE2ABEF6240011A160 /* LanguageListPage.swift */,
 				C7EC29DF2ABEF6240011A160 /* LanguageListPage.xib */,
 				C7E968692AC2742B00DA9F5A /* LanguageCell.swift */,
@@ -330,6 +336,7 @@
 				C7B4C36C2AB1619500B3B94C /* GADConfig.json in Resources */,
 				C7EC29C62ABEAF500011A160 /* TranslatePage.xib in Resources */,
 				C77507AF2AAAF5170083D688 /* HomeCell.xib in Resources */,
+				C7882FB72AC2BEBB0012AE0F /* TranslateFailPage.xib in Resources */,
 				C77507A12AA9BA0E0083D688 /* LaunchPage.xib in Resources */,
 				C7087FC22AAEF30400E566CA /* PrivacyPage.xib in Resources */,
 			);
@@ -402,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7EC29DB2ABEEC2B0011A160 /* NetworkUtil.swift in Sources */,
+				C7882FB62AC2BEBB0012AE0F /* TranslateFailPage.swift in Sources */,
 				C77507A02AA9BA0E0083D688 /* LaunchPage.swift in Sources */,
 				C77507BB2AAB1CD90083D688 /* SettingView.swift in Sources */,
 				C7087FC52AAEFB1B00E566CA /* TermsPage.swift in Sources */,
