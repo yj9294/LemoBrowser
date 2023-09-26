@@ -21,6 +21,10 @@
 	<string>1ec4d1da6622508e5db21053cd278f19</string>
 	<key>FacebookDisplayName</key>
 	<string>LemonBrowser</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -50,9 +54,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-6062348563656176~9290393668</string>
-	<key>GADIsAdManagerApp</key>
-	<true/>
 </dict>
 </plist>

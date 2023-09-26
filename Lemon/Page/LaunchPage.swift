@@ -38,6 +38,7 @@ class LaunchPage: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(progressing), userInfo: nil, repeats: true)
         GADUtil.share.load(.interstitial)
         GADUtil.share.load(.native)
+        NetworkUtil.shared.startMonitoring()
     }
     
     @objc func progressing() {

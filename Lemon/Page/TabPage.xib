@@ -51,7 +51,7 @@
                     </constraints>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ApX-rX-lJa">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="412"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="488"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fJ9-yD-5Gr">
                         <size key="itemSize" width="128" height="128"/>
@@ -64,12 +64,13 @@
                         <outlet property="delegate" destination="-1" id="YyY-Zm-4zs"/>
                     </connections>
                 </collectionView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DI-Ek-zYj" customClass="GADNativeView" customModule="Lemon" customModuleProvider="target">
-                    <rect key="frame" x="16" y="420" width="288" height="76"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DI-Ek-zYj" customClass="GADNativeView" customModule="Lemon" customModuleProvider="target">
+                    <rect key="frame" x="16" y="496" width="288" height="0.0"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="moA-Hu-7MQ">
                             <rect key="frame" x="14" y="16" width="44" height="44"/>
                             <constraints>
+                                <constraint firstAttribute="width" constant="44" id="Z9j-Ek-gvX"/>
                                 <constraint firstAttribute="width" secondItem="moA-Hu-7MQ" secondAttribute="height" multiplier="1:1" id="r8w-Jd-c1c"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
@@ -79,7 +80,7 @@
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tH-Oc-xKA">
-                            <rect key="frame" x="201" y="18" width="75" height="40"/>
+                            <rect key="frame" x="201" y="18" width="75" height="32"/>
                             <color key="backgroundColor" red="0.60392156860000001" green="1" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="75" id="bNO-P5-Mqo"/>
@@ -129,10 +130,8 @@
                         <constraint firstItem="Yba-A7-7HO" firstAttribute="leading" secondItem="moA-Hu-7MQ" secondAttribute="trailing" constant="8" id="Lcw-yH-k8B"/>
                         <constraint firstItem="moA-Hu-7MQ" firstAttribute="top" secondItem="6DI-Ek-zYj" secondAttribute="top" constant="16" id="OwN-MM-7Wn"/>
                         <constraint firstItem="Yba-A7-7HO" firstAttribute="top" secondItem="6DI-Ek-zYj" secondAttribute="top" constant="19" id="RPZ-70-zME"/>
-                        <constraint firstAttribute="bottom" secondItem="4tH-Oc-xKA" secondAttribute="bottom" constant="18" id="W69-ER-l2a"/>
-                        <constraint firstAttribute="bottom" secondItem="moA-Hu-7MQ" secondAttribute="bottom" constant="16" id="ZQ5-7A-6Hi"/>
                         <constraint firstItem="pC7-Vw-nSe" firstAttribute="centerY" secondItem="Yba-A7-7HO" secondAttribute="centerY" id="ZWN-He-e0c"/>
-                        <constraint firstAttribute="height" constant="76" id="ibq-IL-CcV"/>
+                        <constraint firstAttribute="height" id="ibq-IL-CcV"/>
                         <constraint firstAttribute="trailing" secondItem="4tH-Oc-xKA" secondAttribute="trailing" constant="12" id="igR-cs-a6u"/>
                         <constraint firstItem="pC7-Vw-nSe" firstAttribute="leading" secondItem="Yba-A7-7HO" secondAttribute="trailing" constant="10" id="qwF-0g-Fz7"/>
                         <constraint firstItem="4tH-Oc-xKA" firstAttribute="leading" secondItem="pC7-Vw-nSe" secondAttribute="trailing" constant="20" id="sAh-qN-BH2"/>

@@ -108,6 +108,12 @@ extension HomePage {
     @IBAction func goForward() {
         BrowserUtil.shared.goForword()
     }
+    
+    @IBAction func textTranslate() {
+        let vc = TranslatePage()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
 }
 
 extension HomePage {
